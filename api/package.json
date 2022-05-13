@@ -6,16 +6,25 @@
 	"scripts": {
 		"start": "node src/server.js",
 		"dev": "nodemon src/server.js",
-		"test": "echo \"Error: no test specified\" && exit 1"
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"format:check": "prettier --check .",
+		"format:write": "prettier --write .",
+		"lint:check": "eslint .",
+		"lint:fix": "eslint --fix ."
 	},
 	"author": "Bice",
 	"license": "ISC",
 	"dependencies": {
+		"eslint-config-prettier": "^8.5.0",
 		"express": "^4.18.1",
 		"express-graphql": "^0.12.0",
-		"graphql": "^16.5.0"
+		"graphql": "^16.5.0",
+		"prettier": "^2.6.2"
 	},
 	"devDependencies": {
+		"@typescript-eslint/eslint-plugin": "^5.23.0",
+		"@typescript-eslint/parser": "^5.23.0",
+		"eslint": "^8.15.0",
 		"typescript": "^4.6.4"
 	}
 }
