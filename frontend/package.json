@@ -28,7 +28,7 @@
 		"test": "react-scripts test",
 		"eject": "react-scripts eject",
 		"format:check": "prettier --check .",
-		"format:write": "prettier --write './**/*.{js,jsx,ts,tsx,css,md,json}' --config ./.prettierrc",
+		"format:write": "prettier --write .",
 		"lint:check": "eslint .",
 		"lint:fix": "eslint --fix ."
 	},

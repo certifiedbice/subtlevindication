@@ -18,24 +18,25 @@ const schema = buildSchema(`
 `);
 
 const rootValue = {
-    books: [
-        {
-            title: "The Name of the Wind",
-            author: "Patrick Rothfuss",
-        },
-        {
-            title: "The Wise Man's Fear",
-            author: "Patrick Rothfuss",
-        }
-    ]
+	books: [
+		{
+			title: 'The Name of the Wind',
+			author: 'Patrick Rothfuss',
+		},
+		{
+			title: "The Wise Man's Fear",
+			author: 'Patrick Rothfuss',
+		},
+	],
 };
 
 // Use those to handle incoming requests:
-app.use(graphqlHTTP({
-    schema,
-    rootValue
-}));
+app.use(
+	graphqlHTTP({
+		schema,
+		rootValue,
+	}),
+);
 
 // Start the server:
-app.listen(8080, () => console.log("Server started on port 8080"));
-
+app.listen(8080, () => console.log('Server started on port 8080'));
