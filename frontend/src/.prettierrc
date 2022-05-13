@@ -1,5 +1,4 @@
 {
-	"editor.formatOnSave": true,
 	"semi": true,
 	"useTabs": true,
 	"tabWidth": 4,
@@ -7,5 +6,5 @@
 	"bracketSpacing": true,
 	"singleQuote": true,
 	"trailingComma": "all",
-	"jsxBracketSameLine": true
+	"bracketSameLine": true
 }
