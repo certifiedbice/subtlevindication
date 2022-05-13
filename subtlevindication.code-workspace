@@ -1,0 +1,18 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+    ],
+    "settings": {
+        "git.ignoreLimitWarning": true,
+        "editor.formatOnSave": true,
+		"editor.hover.delay": 600,
+        "editor.tabSize": 4,
+		"editor.tabCompletion": "on",
+		"editor.detectIndentation": false,
+        "prettier.useTabs": true,
+        "editor.acceptSuggestionOnEnter": "off",
+        "prettier.tabWidth": 4
+    }
+}
