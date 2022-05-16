@@ -6,16 +6,13 @@ import './App.css';
 function App() {
 	return (
 		<div className="App">
-			<div className="bg"></div>
-			<div className="bg bg2"></div>
-			<div className="bg bg3"></div>
 			{/* <div className="content">
 				<h1>Sliding Diagonals Background Effect</h1>
 			</div> */}
 			<header className="App-header">
-				{/* <img src={logo} className="App-logo" alt="logo" />
+				{/* <img src={logo} className="App-logo" alt="logo" />*/}
 				<Counter />
-				<p> */}
+				{/* <p> */}
 				{/* Edit <code>src/App.tsx</code> and save to reload. */}
 				{/* </p> */}
 				{/* <span>

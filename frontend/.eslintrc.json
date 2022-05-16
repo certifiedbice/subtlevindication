@@ -19,19 +19,19 @@
 	},
 	"plugins": ["react", "@typescript-eslint"],
 	"rules": {
-        "@typescript-eslint/no-non-null-assertion": "off",
-        "prettier/prettier": [
-            "error", 
-            { 
-                "printWidth": 120, 
-                "endOfLine": "auto",
-                "useTabs": true
-            }
-        ]
-    },
-    "settings": {
-        "react": {
-            "version": "detect"
-        }
-    }
+		"@typescript-eslint/no-non-null-assertion": "off",
+		"prettier/prettier": [
+			"error",
+			{
+				"printWidth": 120,
+				"endOfLine": "auto",
+				"useTabs": true
+			}
+		]
+	},
+	"settings": {
+		"react": {
+			"version": "detect"
+		}
+	}
 }
