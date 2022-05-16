@@ -1,17 +1,24 @@
 import React from 'react';
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import { Counter } from './features/counter/Counter';
 import './App.css';
 
 function App() {
 	return (
 		<div className="App">
+			<div className="bg"></div>
+			<div className="bg bg2"></div>
+			<div className="bg bg3"></div>
+			{/* <div className="content">
+				<h1>Sliding Diagonals Background Effect</h1>
+			</div> */}
 			<header className="App-header">
-				<img src={logo} className="App-logo" alt="logo" />
+				{/* <img src={logo} className="App-logo" alt="logo" />
 				<Counter />
-				<p>
-					Edit <code>src/App.tsx</code> and save to reload.
-				</p>
+				<p> */}
+				{/* Edit <code>src/App.tsx</code> and save to reload. */}
+				{/* </p> */}
+                <div></div>
 				<span>
 					<span>Learn </span>
 					<a className="App-link" href="https://reactjs.org/" target="_blank" rel="noopener noreferrer">
