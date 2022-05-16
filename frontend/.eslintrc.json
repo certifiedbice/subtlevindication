@@ -25,7 +25,9 @@
 			{
 				"printWidth": 120,
 				"endOfLine": "auto",
-				"useTabs": true
+				"useTabs": true,
+                "tabWidth": 4,
+                "singleQuote": true
 			}
 		]
 	},

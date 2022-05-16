@@ -1,0 +1,40 @@
+#navigation-wrapper {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    position: relative;
+    margin: 0 auto 0 auto;
+}
+
+#navigation-wrapper h2 {
+    flex: 1;
+    margin: 0 auto 0 auto;
+    cursor: pointer;
+}
+
+#navigation-wrapper>h2 {
+    margin-right: 20px;
+}
+
+#navigation-wrapper h2:last-child {
+    margin-right: 0;
+}
+
+#navigation-wrapper h2:hover {
+    animation: glow 2s ease-in-out infinite alternate;
+}
+
+.navigation-link {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #000000;
+    text-decoration: none;
+}
+
+@keyframes glow {
+    from {
+        text-shadow: 0 0 20px #ffffff;
+    }
+    to {
+        text-shadow: 0 0 30px #000000, 0 0 10px #000000;
+    }
+}

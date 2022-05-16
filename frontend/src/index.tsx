@@ -11,6 +11,7 @@ import './index.css';
 // import Header from '../components/header/Header';
 import Home from './pages/home/home';
 import BackgroundAnimation from './components/backgroundAnimation/backgroundAnimation';
+import Header from './components/header/header';
 // import About from '../pages/about/About';
 // import Contact from '../pages/contact/Contact';
 // import Portfolio from '../pages/contact/Portfolio';
@@ -25,6 +26,7 @@ root.render(
 	<React.StrictMode>
 		<Provider store={store}>
 			<BrowserRouter>
+				<Header />
 				<BackgroundAnimation />
 				<main>
 					<Routes>
