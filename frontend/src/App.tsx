@@ -18,8 +18,7 @@ function App() {
 				<p> */}
 				{/* Edit <code>src/App.tsx</code> and save to reload. */}
 				{/* </p> */}
-                <div></div>
-				<span>
+				{/* <span>
 					<span>Learn </span>
 					<a className="App-link" href="https://reactjs.org/" target="_blank" rel="noopener noreferrer">
 						React
@@ -44,7 +43,7 @@ function App() {
 						rel="noopener noreferrer">
 						React Redux
 					</a>
-				</span>
+				</span> */}
 			</header>
 		</div>
 	);

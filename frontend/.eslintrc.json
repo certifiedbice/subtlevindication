@@ -24,7 +24,8 @@
             "error", 
             { 
                 "printWidth": 120, 
-                "endOfLine": "auto" 
+                "endOfLine": "auto",
+                "useTabs": true
             }
         ]
     },
